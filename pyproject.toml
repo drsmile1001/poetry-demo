@@ -10,6 +10,9 @@ packages = [{include = "poetry_demo"}]
 python = "^3.11"
 fastapi = "^0.90.0"
 uvicorn = "^0.20.0"
+pydantic = {extras = ["email"], version = "^1.10.4"}
+sqlalchemy = "^2.0.2"
+python-multipart = "^0.0.5"
 
 [tool.poetry.group.dev.dependencies]
 black = "^23.1.0"
